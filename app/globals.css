@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-nearBlack text-white font-dmsans antialiased selection:bg-gold selection:text-nearBlack min-h-screen flex flex-col;
+  }
+}
+
+@layer components {
+  /* Primary Filled Button specification */
+  .btn-primary {
+    @apply inline-flex items-center justify-center font-sora font-semibold text-body-md text-nearBlack bg-gold px-6 py-3 rounded-interactive hover:bg-lightGold hover:shadow-gold-glow transition-all duration-200 focus:outline-none focus-visible:ring-1 focus-visible:ring-gold;
+  }
+
+  /* Responsive Grid Container System:
+     - Desktop (>1024px): max-width 1360px, 4rem margins (px-16), 2.5rem gutters (gap-10)
+     - Tablet (768-1024px): 2.5rem margins (px-10), 1.5rem gutters (gap-6)
+     - Mobile (<768px): 1.5rem margins (px-6), 1rem gutters (gap-4)
+  */
+  .site-container {
+    @apply w-full max-w-[1360px] mx-auto px-6 md:px-10 lg:px-16;
+  }
+
+  /* 1px hairline divider with rgba(201,168,76,0.20) */
+  .section-divider {
+    @apply border-b border-gold/20;
+  }
+}
