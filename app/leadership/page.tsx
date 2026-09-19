@@ -7,7 +7,7 @@ import LeadershipBlock from '@/components/LeadershipBlock';
 export const metadata: Metadata = {
   title: 'Leadership',
   description:
-    'Unfailed Pvt Ltd is a student-founded company building credential infrastructure for institutions across India.',
+    'Unfailed Pvt Ltd is a founder-led company building credential infrastructure for institutions across India.',
 };
 
 export default function LeadershipPage() {
@@ -21,7 +21,7 @@ export default function LeadershipPage() {
           bgColor="nearBlack"
           eyebrow="ABOUT"
           heading="Unfailed Pvt Ltd"
-          description="A student-founded company building credential infrastructure for institutions across India."
+          description="A founder-led company building credential infrastructure for institutions across India."
           hasDivider={true}
         />
 

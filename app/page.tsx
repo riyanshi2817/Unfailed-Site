@@ -98,7 +98,7 @@ export default function HomePage() {
           bgColor="darkGray"
           eyebrow="LEADERSHIP"
           heading="Meet the team"
-          description="Founder-led, student-built."
+          description="Founder-led, built with focus."
           isClickable={true}
           href="/leadership"
           isExternal={false}
