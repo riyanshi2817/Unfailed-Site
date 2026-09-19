@@ -6,7 +6,7 @@ import Reveal from '@/components/Reveal';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Privacy Policy for Unfailed Pvt Ltd.',
+  description: 'Privacy Policy for Unfailed Private Limited.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -37,7 +37,7 @@ export default function PrivacyPolicyPage() {
                   Overview
                 </h3>
                 <p>
-                  This Privacy Policy explains how Unfailed Pvt Ltd (&ldquo;Unfailed,&rdquo; &ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) handles information in connection with this website. This policy applies only to this website (unfailed.co or equivalent domain) — it does not cover SWALT or any other product operated by Unfailed, which will have its own separate privacy policy.
+                  This Privacy Policy explains how Unfailed Private Limited (&ldquo;Unfailed,&rdquo; &ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) handles information in connection with this website. This policy applies only to this website (unfailed.co or equivalent domain) — it does not cover SWALT or any other product operated by Unfailed, which will have its own separate privacy policy.
                 </p>
               </section>
 
@@ -115,17 +115,17 @@ export default function PrivacyPolicyPage() {
                 <p>
                   For questions about this Privacy Policy, contact us at{' '}
                   <a
-                    href="mailto:[CONTACT EMAIL PLACEHOLDER]"
+                    href="mailto:sppandey5102005@gmail.com"
                     className="text-gold hover:text-lightGold transition-colors underline underline-offset-4 rounded-interactive focus:outline-none focus-visible:ring-1 focus-visible:ring-gold"
                   >
-                    [CONTACT EMAIL PLACEHOLDER]
+                    sppandey5102005@gmail.com
                   </a>
                   .
                 </p>
                 <div className="pt-4 text-body-sm text-gray space-y-1">
                   <p className="font-semibold text-white">Unfailed Private Limited</p>
-                  <p>Registered Office: [REGISTERED OFFICE PLACEHOLDER]</p>
-                  <p>CIN: [CIN PLACEHOLDER]</p>
+                  <p>Registered Office: C/o Gobardhan Pandey, Nooranganj Sasaram, Gandhi Path, Sasaram, Rohtas, Bihar, India, 821115</p>
+                  <p>CIN: U62099BR2026PTC086842</p>
                 </div>
               </section>
             </Reveal>

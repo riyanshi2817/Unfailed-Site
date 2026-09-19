@@ -5,10 +5,10 @@ interface LogoProps {
   /**
    * - 'unfailed': UF symbol mark next to "UNFAILED" in Sora text (default, for navbar)
    * - 'unfailed-symbol': UF monogram symbol mark only (for footer, legal collapsed nav, etc.)
-   * - 'unfailed-lockup': Full lockup (UF symbol stacked above UNFAILED wordmark)
+   * - 'unfailed-black': Black UF monogram symbol mark (for light backgrounds)
    * - 'swalt': Interlocking S-mark logo for SWALT (homepage tile)
    */
-  variant?: 'unfailed' | 'unfailed-symbol' | 'unfailed-lockup' | 'swalt';
+  variant?: 'unfailed' | 'unfailed-symbol' | 'unfailed-black' | 'swalt';
   /**
    * Additional CSS classes.
    */
@@ -30,10 +30,10 @@ export default function Logo({
     logoContent = (
       <span className="inline-flex items-center gap-2.5">
         <Image
-          src="/logo/unfailed-symbol-white.png"
+          src="/logo/unfailed-mark-white.png"
           alt="Unfailed Logo Mark"
-          width={32}
-          height={27}
+          width={34}
+          height={28}
           className="w-auto h-6 md:h-7 object-contain select-none transition-transform duration-200 group-hover:scale-105"
           priority
         />
@@ -45,22 +45,22 @@ export default function Logo({
   } else if (variant === 'unfailed-symbol') {
     logoContent = (
       <Image
-        src="/logo/unfailed-symbol-white.png"
+        src="/logo/unfailed-mark-white.png"
         alt="Unfailed Logo Mark"
-        width={34}
-        height={28}
+        width={39}
+        height={32}
         className="w-auto h-7 md:h-8 object-contain select-none transition-transform duration-200 group-hover:scale-105"
         priority
       />
     );
-  } else if (variant === 'unfailed-lockup') {
+  } else if (variant === 'unfailed-black') {
     logoContent = (
       <Image
-        src="/logo/unfailed-lockup-white.png"
-        alt="Unfailed Logo Lockup"
-        width={110}
-        height={62}
-        className="w-auto h-9 md:h-10 object-contain select-none transition-transform duration-200 group-hover:scale-105"
+        src="/logo/unfailed-mark-black.png"
+        alt="Unfailed Logo Mark"
+        width={39}
+        height={32}
+        className="w-auto h-7 md:h-8 object-contain select-none transition-transform duration-200 group-hover:scale-105"
         priority
       />
     );
@@ -83,7 +83,7 @@ export default function Logo({
       <Link
         href="/"
         className={`inline-flex items-center group rounded-interactive focus:outline-none focus-visible:ring-1 focus-visible:ring-gold ${className}`}
-        aria-label="Unfailed Pvt Ltd"
+        aria-label="Unfailed Private Limited"
       >
         {logoContent}
       </Link>

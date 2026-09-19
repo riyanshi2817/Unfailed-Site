@@ -76,11 +76,11 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-darkGray/60 pt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 font-dmsans text-caption text-gray">
           <div className="space-y-1">
-            <p>CIN: <span className="text-white/80 font-mono">[CIN PLACEHOLDER]</span></p>
-            <p>Registered Office: <span className="text-white/80">[REGISTERED OFFICE PLACEHOLDER]</span></p>
+            <p>CIN: <span className="text-white/80 font-mono">U62099BR2026PTC086842</span></p>
+            <p>Registered Office: <span className="text-white/80">C/o Gobardhan Pandey, Nooranganj Sasaram, Gandhi Path, Sasaram, Rohtas, Bihar, India, 821115</span></p>
           </div>
           <div className="text-gray/70">
-            © {new Date().getFullYear()} Unfailed Pvt Ltd. All rights reserved.
+            © {new Date().getFullYear()} Unfailed Private Limited. All rights reserved.
           </div>
         </div>
       </div>

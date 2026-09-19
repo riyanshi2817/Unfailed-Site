@@ -6,7 +6,7 @@ import Reveal from '@/components/Reveal';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of Service for Unfailed Pvt Ltd.',
+  description: 'Terms of Service for Unfailed Private Limited.',
 };
 
 export default function TermsOfServicePage() {
@@ -47,7 +47,7 @@ export default function TermsOfServicePage() {
                   Use of This Website
                 </h3>
                 <p>
-                  This website provides general information about Unfailed Pvt Ltd. You may browse this site for personal, non-commercial, informational purposes. You may not copy, reproduce, or redistribute the content of this site for commercial purposes without our prior written permission.
+                  This website provides general information about Unfailed Private Limited. You may browse this site for personal, non-commercial, informational purposes. You may not copy, reproduce, or redistribute the content of this site for commercial purposes without our prior written permission.
                 </p>
               </section>
 
@@ -57,7 +57,7 @@ export default function TermsOfServicePage() {
                   Intellectual Property
                 </h3>
                 <p>
-                  All trademarks, logos, and content on this website — including the Unfailed and SWALT names, marks, and associated branding — are the property of Unfailed Pvt Ltd unless otherwise noted, and may not be used without permission.
+                  All trademarks, logos, and content on this website — including the Unfailed and SWALT names, marks, and associated branding — are the property of Unfailed Private Limited unless otherwise noted, and may not be used without permission.
                 </p>
               </section>
 
@@ -87,7 +87,7 @@ export default function TermsOfServicePage() {
                   Limitation of Liability
                 </h3>
                 <p>
-                  To the fullest extent permitted by law, Unfailed Pvt Ltd shall not be liable for any indirect, incidental, or consequential damages arising from your use of this website.
+                  To the fullest extent permitted by law, Unfailed Private Limited shall not be liable for any indirect, incidental, or consequential damages arising from your use of this website.
                 </p>
               </section>
 
@@ -119,17 +119,17 @@ export default function TermsOfServicePage() {
                 <p>
                   For questions about these Terms, contact us at{' '}
                   <a
-                    href="mailto:[CONTACT EMAIL PLACEHOLDER]"
+                    href="mailto:sppandey5102005@gmail.com"
                     className="text-gold hover:text-lightGold transition-colors underline underline-offset-4 rounded-interactive focus:outline-none focus-visible:ring-1 focus-visible:ring-gold"
                   >
-                    [CONTACT EMAIL PLACEHOLDER]
+                    sppandey5102005@gmail.com
                   </a>
                   .
                 </p>
                 <div className="pt-4 text-body-sm text-gray space-y-1">
                   <p className="font-semibold text-white">Unfailed Private Limited</p>
-                  <p>Registered Office: [REGISTERED OFFICE PLACEHOLDER]</p>
-                  <p>CIN: [CIN PLACEHOLDER]</p>
+                  <p>Registered Office: C/o Gobardhan Pandey, Nooranganj Sasaram, Gandhi Path, Sasaram, Rohtas, Bihar, India, 821115</p>
+                  <p>CIN: U62099BR2026PTC086842</p>
                 </div>
               </section>
             </Reveal>

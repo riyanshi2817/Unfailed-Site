@@ -6,7 +6,7 @@ import Reveal from '@/components/Reveal';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Get in touch with Unfailed Pvt Ltd.',
+  description: 'Get in touch with Unfailed Private Limited.',
 };
 
 export default function ContactPage() {
@@ -35,10 +35,10 @@ export default function ContactPage() {
                       Email
                     </span>
                     <a
-                      href="mailto:[PLACEHOLDER EMAIL]"
+                      href="mailto:sppandey5102005@gmail.com"
                       className="text-gold hover:text-lightGold transition-colors duration-200 text-body-lg font-medium rounded-interactive focus:outline-none focus-visible:ring-1 focus-visible:ring-gold"
                     >
-                      [PLACEHOLDER EMAIL]
+                      sppandey5102005@gmail.com
                     </a>
                   </div>
 
@@ -48,7 +48,7 @@ export default function ContactPage() {
                       Registered Office
                     </span>
                     <span className="text-white text-body-md">
-                      [REGISTERED OFFICE PLACEHOLDER]
+                      C/o Gobardhan Pandey, Nooranganj Sasaram, Gandhi Path, Sasaram, Rohtas, Bihar, India, 821115
                     </span>
                   </div>
                 </div>
